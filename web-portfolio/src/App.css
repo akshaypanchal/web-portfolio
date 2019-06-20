@@ -69,7 +69,7 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 
 }
 
-.banner-text h1 {
+.banner-text h1,h4,h2 {
   font-size: 66px;
   padding-top: 5px;
   font-weight: bold;

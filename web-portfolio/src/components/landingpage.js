@@ -12,10 +12,15 @@ class Landingpage extends Component {
 							<Tilt className="Tilt center pv3" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
  								<div className="Tilt-inner"><img src ={Logo} style = {{ height: 250, width: 250 }}  /></div>
 							</Tilt>
-						<div className = 'banner-text'>
-							<h1>Full Stack Develoepr</h1>
-							<hr />
-							<p className='pv3'>HTML5/CSS3 | Bootsrap | React | Redux | JavaScript | PHP | NodeJS | ExpressJS | SQL | AngualrJS</p>
+
+						<div className="banner-text mv0">
+							<h4>"Failure will never overtake me if my determination to succeed is strong enough"</h4>
+						</div>		
+
+						<div className = 'banner-text mv0'>
+							<h1 className="mv0">Full Stack Develoepr</h1>
+							<hr  />
+							<p className='pv1'>HTML5/CSS3 | Bootsrap | React | Redux | JavaScript | PHP | NodeJS | ExpressJS | SQL | AngualrJS</p>
 							
 							<div className="social-links">
 								<a href="https://www.linkedin.com/in/akshay-panchal/" rel="noopener noreferrer" target="_blank">

@@ -10,7 +10,7 @@ class Landingpage extends Component {
 					<div className = "landingpage">
 						
 							<Tilt className="Tilt center pv3" options={{ max : 25 }} style={{ height: 250, width: 250 }} >
- 								<div className="Tilt-inner"><img src ={Logo} style = {{ height: 250, width: 250 }}  /></div>
+ 								<div className="Tilt-inner"><img src ={Logo} alt="logo" style = {{ height: 250, width: 250 }}  /></div>
 							</Tilt>
 
 						<div className="banner-text mv0">
@@ -18,7 +18,7 @@ class Landingpage extends Component {
 						</div>		
 
 						<div className = 'banner-text mv0'>
-							<h1 className="mv0">Full Stack Develoepr</h1>
+							<h1 className="mv0">Full Stack Developer</h1>
 							<hr  />
 							<p className='pv1'>HTML5/CSS3 | Bootsrap | React | Redux | JavaScript | PHP | NodeJS | ExpressJS | SQL | AngualrJS</p>
 							

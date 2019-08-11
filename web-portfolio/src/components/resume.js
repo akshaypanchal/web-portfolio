@@ -30,7 +30,7 @@ class Resume extends Component {
           <Button variant="outline-primary" className="ma2" onClick={this.goToNextPage}>Next</Button>
         </nav>
 
-        <div style={{ width: '50%' , margin:'auto', padding:'10px' }}>
+        <div className="o-80 tc" style={{ width: '50%' , margin:'auto', padding:'10px' }}>
           <Document
             file={resume}
             onLoadSuccess={this.onDocumentLoadSuccess}
@@ -49,4 +49,3 @@ class Resume extends Component {
 
 
 export default Resume;
-

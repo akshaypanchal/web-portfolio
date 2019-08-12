@@ -15,7 +15,7 @@ class Resume extends Component {
     this.setState({ numPages });
   }
 
-   goToPrevPage = () =>
+  goToPrevPage = () =>
     					this.setState(state => ({ pageNumber: state.pageNumber - 1 }));
   goToNextPage = () =>
     					this.setState(state => ({ pageNumber: state.pageNumber + 1 }));
@@ -25,9 +25,9 @@ class Resume extends Component {
  
     return (
       <div className="tc">
-        <nav className="tc pa2">
-          <Button variant="outline-primary" className="ma2" onClick={this.goToPrevPage}>Prev</Button>
-          <Button variant="outline-primary" className="ma2" onClick={this.goToNextPage}>Next</Button>
+        <nav className="pa2">
+          <Button variant="dark" className="ma2" onClick={this.goToPrevPage}>Prev</Button>
+          <Button variant="dark" className="ma2" onClick={this.goToNextPage}>Next</Button>
         </nav>
 
         <div className="o-80 tc" style={{ width: '50%' , margin:'auto', padding:'10px' }}>

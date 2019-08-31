@@ -4,6 +4,7 @@ import '../App.css';
 import Logo  from '../logo.jpg';
 
 
+
 class Landingpage extends Component {
 	render(){
 		return(

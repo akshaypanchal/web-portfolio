@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Tilt from 'react-tilt';
 import '../App.css';
-import Logo  from '../logo.jpg';
+import Logo  from '../LogoNew.jpg';
 
 
 

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Document, Page} from 'react-pdf';
 import Button from 'react-bootstrap/Button';
-import resume from '../AkshayP_WDev_0808.pdf';
+import resume from '../AkshayP_WDev_2908.pdf';
 import { pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 

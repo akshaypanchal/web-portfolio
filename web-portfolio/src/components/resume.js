@@ -30,8 +30,8 @@ class Resume extends Component {
           <Button variant="dark" className="ma2" onClick={this.goToNextPage}>Next</Button>
         </nav>
 
-        <div className="o-80 tc" style={{ width: '50%' , margin:'auto', padding:'10px' }}>
-          <Document
+        <div className="o-80" style={{ width: '50%' , margin:'auto', padding:'10px' }}>
+          <Document 
             file={resume}
             onLoadSuccess={this.onDocumentLoadSuccess}
           >

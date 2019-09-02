@@ -14,14 +14,14 @@ class Landingpage extends Component {
  								<div className="Tilt-inner"><img src ={Logo} alt="logo" style = {{ height: 250, width: 250 }}  /></div>
 							</Tilt>
 
-						<div className="banner-text mv0">
-							<h4>"Failure will never overtake me if my determination to succeed is strong enough"</h4>
+						<div className="banner-text mv0 white">
+							<h6>"Failure will never overtake me if my determination to succeed is strong enough"</h6>
 						</div>		
 
 						<div className = 'banner-text mv0'>
 							<h1 className="mv0">Web Application Developer</h1>
 							<hr  />
-							<p className='pv1'>HTML5/CSS3 | Bootsrap | React | Redux | JavaScript | PHP | NodeJS | ExpressJS | SQL | AngualrJS</p>
+							<p className='pv1'>HTML5/CSS3 | Bootsrap | React | Redux | JavaScript | PHP | NodeJS | ExpressJS | SQL | AngularJS</p>
 							
 							<div className="social-links">
 								<a href="https://www.linkedin.com/in/akshay-panchal/" rel="noopener noreferrer" target="_blank">
